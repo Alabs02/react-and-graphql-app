@@ -1,4 +1,44 @@
 .app-layout {
   width: 100%;
   min-height: 100vh;
+
+  &__main {
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 14fr toRem(100);
+
+    &-body {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__drawer {
+    border-right: toRem(1) solid $brand-secondary;
+  }
 }
+
+.drawer {
+  width: 100%;
+  height: 100%;
+
+  &__header {
+      display: flex;
+      align-items: center;
+      width: 100;
+
+    &-media {
+      width: toRem(90);
+      height: toRem(90);
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+    
+  }
+}
+
