@@ -6,6 +6,6 @@ const AppFooter = () => {
       &copy; 2020 Rick and Morty
     </div>
   );
-}
+};
 
 export { AppFooter as default };

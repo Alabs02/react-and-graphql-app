@@ -3,6 +3,6 @@ const renderContent = (content: any, message: string = 'No data') => {
     return message;
   }
   return content;
-}
+};
 
 export { renderContent as default };

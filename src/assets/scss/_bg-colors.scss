@@ -69,8 +69,7 @@
 }
 
 @include breakpoint-up(md) {
-.bg-md {
-
+  .bg-md {
     // BRAND PRIMARY
     &-primary {
       background-color: $brand-primary;

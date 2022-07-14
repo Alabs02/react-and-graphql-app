@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:20}
+    .fil0 {fill:black}
+    .fil1 {fill:url(#id4)}
+    .fil2 {fill:url(#id5)}
+   ]]>
+  </style>
+   <mask id="id0">
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="10425.9" y1="12968.4" x2="10116.6" y2="12704.7">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id1)" x="6483" y="9426" width="7576" height="6820"/>
+   </mask>
+   <mask id="id2">
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="10376" y1="13711.9" x2="10134.7" y2="13506">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id3)" x="7310" y="10929" width="5890" height="5359"/>
+   </mask>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="10170.2" y1="16070.2" x2="10372.3" y2="9602.91">
+   <stop offset="0" style="stop-color:#121010"/>
+   <stop offset="1" style="stop-color:#BDBFC1"/>
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="10176" y1="16146.9" x2="10334.6" y2="11071">
+   <stop offset="0" style="stop-color:#0A0909"/>
+   <stop offset="1" style="stop-color:#373435"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <ellipse class="fil0 str0" cx="10367" cy="13481" rx="7129" ry="7072"/>
+  <path class="fil1" style="mask:url(#id0)" d="M13950 15128c258,472 -37,739 -306,803 -1933,457 -4640,357 -6620,1 -496,-89 -656,-463 -425,-908 575,-1109 2360,-4202 3213,-4967 243,-218 658,-263 921,75 1130,1451 2332,3380 3217,4997z"/>
+  <path class="fil2" style="mask:url(#id2)" d="M13098 15380c199,364 43,640 -164,689 -1494,353 -3680,202 -5218,-28 -391,-59 -478,-398 -299,-742 444,-857 1824,-3248 2483,-3839 188,-169 509,-203 712,58 874,1121 1802,2612 2486,3862z"/>
+ </g>
+</svg>

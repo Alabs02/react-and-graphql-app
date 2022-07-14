@@ -23,9 +23,9 @@
   height: 100%;
 
   &__header {
-      display: flex;
-      align-items: center;
-      width: 100;
+    display: flex;
+    align-items: center;
+    width: 100;
 
     &-media {
       width: toRem(90);
@@ -38,7 +38,5 @@
         object-fit: contain;
       }
     }
-    
   }
 }
-

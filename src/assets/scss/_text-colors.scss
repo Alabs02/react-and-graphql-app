@@ -148,7 +148,6 @@
 
 @include breakpoint-up(lg) {
   .text-lg {
-
     // BRAND PRIMARY
     &-primary {
       color: $brand-primary;
@@ -227,7 +226,6 @@
 
 @include breakpoint-up(xl) {
   .text-xl {
-
     // BRAND PRIMARY
     &-primary {
       color: $brand-primary;

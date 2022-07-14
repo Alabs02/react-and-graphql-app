@@ -5,13 +5,16 @@ import { RiSearch2Line } from 'react-icons/ri';
 
 // INTERFACES
 import { ISearchProps } from '@/interfaces';
-interface IProps extends ISearchProps {};
+interface IProps extends ISearchProps {}
 
 const SearchBar: FC<IProps> = ({ query, setQuery }) => {
   return (
     <Fragment>
       <div className="search-bar">
-        <RiSearch2Line fontSize={20} className="search-bar__icon text-secondary" />
+        <RiSearch2Line
+          fontSize={20}
+          className="search-bar__icon text-secondary"
+        />
         <input
           onChange={(e) => setQuery(e.target.value)}
           type="text"
@@ -22,6 +25,6 @@ const SearchBar: FC<IProps> = ({ query, setQuery }) => {
       </div>
     </Fragment>
   );
-}
+};
 
 export { SearchBar as default };

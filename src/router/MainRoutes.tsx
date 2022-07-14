@@ -17,6 +17,6 @@ const MainRoutes = () => {
       </Route>
     </Fragment>
   );
-}
+};
 
 export { MainRoutes as default };
