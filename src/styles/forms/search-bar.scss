@@ -1,0 +1,11 @@
+.search-bar {
+  width: 100%;
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: toRem(24);
+    transform: translateY(-50%);
+  }
+}

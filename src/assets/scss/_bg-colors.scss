@@ -1,0 +1,304 @@
+.bg {
+  // BRAND PRIMARY
+  &-primary {
+    background-color: $brand-primary;
+  }
+
+  // BRAND SECONDARY
+  &-secondary {
+    background-color: $brand-secondary;
+
+    &-100 {
+      background-color: $brand-secondary-100;
+    }
+
+    &-200 {
+      background-color: $brand-secondary-200;
+    }
+  }
+
+  // BRAND INFO
+  &-info {
+    background-color: $brand-info;
+
+    &-100 {
+      background-color: $brand-info-100;
+    }
+  }
+
+  // TEXT COLORS
+  &-default {
+    background-color: $text-color;
+  }
+  &-white {
+    background-color: $text-white;
+  }
+
+  // BRAND TONIC
+  &-tonic {
+    background-color: $brand-tonic;
+
+    &-100 {
+      background-color: $brand-tonic-100;
+    }
+
+    &-200 {
+      background-color: $brand-tonic-200;
+    }
+  }
+
+  // OTHER COLORS
+  &-app-white {
+    background-color: $app-white;
+  }
+  &-app-brown {
+    background-color: $app-brown;
+  }
+  &-app-green {
+    background-color: $app-green;
+  }
+  &-app-dark {
+    background-color: $app-dark;
+  }
+  &-app-purple {
+    background-color: $app-purple;
+  }
+  &-app-white {
+    background-color: $white;
+  }
+}
+
+@include breakpoint-up(md) {
+.bg-md {
+
+    // BRAND PRIMARY
+    &-primary {
+      background-color: $brand-primary;
+    }
+
+    // BRAND SECONDARY
+    &-secondary {
+      background-color: $brand-secondary;
+
+      &-100 {
+        background-color: $brand-secondary-100;
+      }
+
+      &-200 {
+        background-color: $brand-secondary-200;
+      }
+    }
+
+    // BRAND INFO
+    &-info {
+      background-color: $brand-info;
+
+      &-100 {
+        background-color: $brand-info-100;
+      }
+    }
+
+    // TEXT COLORS
+    &-default {
+      background-color: $text-color;
+    }
+
+    &-white {
+      background-color: $text-white;
+    }
+
+    // BRAND TONIC
+    &-tonic {
+      background-color: $brand-tonic;
+
+      &-100 {
+        background-color: $brand-tonic-100;
+      }
+
+      &-200 {
+        background-color: $brand-tonic-200;
+      }
+    }
+
+    // OTHER COLORS
+    &-app-white {
+      background-color: $app-white;
+    }
+
+    &-app-brown {
+      background-color: $app-brown;
+    }
+
+    &-app-green {
+      background-color: $app-green;
+    }
+
+    &-app-dark {
+      background-color: $app-dark;
+    }
+
+    &-app-purple {
+      background-color: $app-purple;
+    }
+
+    &-app-white {
+      background-color: $white;
+    }
+  }
+}
+
+@include breakpoint-up(lg) {
+  .bg-lg {
+    // BRAND PRIMARY
+    &-primary {
+      background-color: $brand-primary;
+    }
+
+    // BRAND SECONDARY
+    &-secondary {
+      background-color: $brand-secondary;
+
+      &-100 {
+        background-color: $brand-secondary-100;
+      }
+
+      &-200 {
+        background-color: $brand-secondary-200;
+      }
+    }
+
+    // BRAND INFO
+    &-info {
+      background-color: $brand-info;
+
+      &-100 {
+        background-color: $brand-info-100;
+      }
+    }
+
+    // TEXT COLORS
+    &-default {
+      background-color: $text-color;
+    }
+
+    &-white {
+      background-color: $text-white;
+    }
+
+    // BRAND TONIC
+    &-tonic {
+      background-color: $brand-tonic;
+
+      &-100 {
+        background-color: $brand-tonic-100;
+      }
+
+      &-200 {
+        background-color: $brand-tonic-200;
+      }
+    }
+
+    // OTHER COLORS
+    &-app-white {
+      background-color: $app-white;
+    }
+
+    &-app-brown {
+      background-color: $app-brown;
+    }
+
+    &-app-green {
+      background-color: $app-green;
+    }
+
+    &-app-dark {
+      background-color: $app-dark;
+    }
+
+    &-app-purple {
+      background-color: $app-purple;
+    }
+
+    &-app-white {
+      background-color: $white;
+    }
+  }
+}
+
+@include breakpoint-up(xl) {
+  .bg-xl {
+    // BRAND PRIMARY
+    &-primary {
+      background-color: $brand-primary;
+    }
+
+    // BRAND SECONDARY
+    &-secondary {
+      background-color: $brand-secondary;
+
+      &-100 {
+        background-color: $brand-secondary-100;
+      }
+
+      &-200 {
+        background-color: $brand-secondary-200;
+      }
+    }
+
+    // BRAND INFO
+    &-info {
+      background-color: $brand-info;
+
+      &-100 {
+        background-color: $brand-info-100;
+      }
+    }
+
+    // TEXT COLORS
+    &-default {
+      background-color: $text-color;
+    }
+
+    &-white {
+      background-color: $text-white;
+    }
+
+    // BRAND TONIC
+    &-tonic {
+      background-color: $brand-tonic;
+
+      &-100 {
+        background-color: $brand-tonic-100;
+      }
+
+      &-200 {
+        background-color: $brand-tonic-200;
+      }
+    }
+
+    // OTHER COLORS
+    &-app-white {
+      background-color: $app-white;
+    }
+
+    &-app-brown {
+      background-color: $app-brown;
+    }
+
+    &-app-green {
+      background-color: $app-green;
+    }
+
+    &-app-dark {
+      background-color: $app-dark;
+    }
+
+    &-app-purple {
+      background-color: $app-purple;
+    }
+
+    &-app-white {
+      background-color: $white;
+    }
+  }
+}

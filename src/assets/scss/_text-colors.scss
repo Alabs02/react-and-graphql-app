@@ -1,0 +1,305 @@
+.text {
+  // BRAND PRIMARY
+  &-primary {
+    color: $brand-primary;
+  }
+
+  // BRAND SECONDARY
+  &-secondary {
+    color: $brand-secondary;
+
+    &-100 {
+      color: $brand-secondary-100;
+    }
+
+    &-200 {
+      color: $brand-secondary-200;
+    }
+  }
+
+  // BRAND INFO
+  &-info {
+    color: $brand-info;
+
+    &-100 {
+      color: $brand-info-100;
+    }
+  }
+
+  // TEXT COLORS
+  &-default {
+    color: $text-color;
+  }
+  &-white {
+    color: $text-white;
+  }
+
+  // BRAND TONIC
+  &-tonic {
+    color: $brand-tonic;
+
+    &-100 {
+      color: $brand-tonic-100;
+    }
+
+    &-200 {
+      color: $brand-tonic-200;
+    }
+  }
+
+  // OTHER COLORS
+  &-app-white {
+    color: $app-white;
+  }
+  &-app-brown {
+    color: $app-brown;
+  }
+  &-app-green {
+    color: $app-green;
+  }
+  &-app-dark {
+    color: $app-dark;
+  }
+  &-app-purple {
+    color: $app-purple;
+  }
+  &-white {
+    color: $white;
+  }
+}
+
+@include breakpoint-up(md) {
+  .text-md {
+    // BRAND PRIMARY
+    &-primary {
+      color: $brand-primary;
+    }
+
+    // BRAND SECONDARY
+    &-secondary {
+      color: $brand-secondary;
+
+      &-100 {
+        color: $brand-secondary-100;
+      }
+
+      &-200 {
+        color: $brand-secondary-200;
+      }
+    }
+
+    // BRAND INFO
+    &-info {
+      color: $brand-info;
+
+      &-100 {
+        color: $brand-info-100;
+      }
+    }
+
+    // TEXT COLORS
+    &-default {
+      color: $text-color;
+    }
+
+    &-white {
+      color: $text-white;
+    }
+
+    // BRAND TONIC
+    &-tonic {
+      color: $brand-tonic;
+
+      &-100 {
+        color: $brand-tonic-100;
+      }
+
+      &-200 {
+        color: $brand-tonic-200;
+      }
+    }
+
+    // OTHER COLORS
+    &-app-white {
+      color: $app-white;
+    }
+
+    &-app-brown {
+      color: $app-brown;
+    }
+
+    &-app-green {
+      color: $app-green;
+    }
+
+    &-app-dark {
+      color: $app-dark;
+    }
+
+    &-app-purple {
+      color: $app-purple;
+    }
+
+    &-white {
+      color: $white;
+    }
+  }
+}
+
+@include breakpoint-up(lg) {
+  .text-lg {
+
+    // BRAND PRIMARY
+    &-primary {
+      color: $brand-primary;
+    }
+
+    // BRAND SECONDARY
+    &-secondary {
+      color: $brand-secondary;
+
+      &-100 {
+        color: $brand-secondary-100;
+      }
+
+      &-200 {
+        color: $brand-secondary-200;
+      }
+    }
+
+    // BRAND INFO
+    &-info {
+      color: $brand-info;
+
+      &-100 {
+        color: $brand-info-100;
+      }
+    }
+
+    // TEXT COLORS
+    &-default {
+      color: $text-color;
+    }
+
+    &-white {
+      color: $text-white;
+    }
+
+    // BRAND TONIC
+    &-tonic {
+      color: $brand-tonic;
+
+      &-100 {
+        color: $brand-tonic-100;
+      }
+
+      &-200 {
+        color: $brand-tonic-200;
+      }
+    }
+
+    // OTHER COLORS
+    &-app-white {
+      color: $app-white;
+    }
+
+    &-app-brown {
+      color: $app-brown;
+    }
+
+    &-app-green {
+      color: $app-green;
+    }
+
+    &-app-dark {
+      color: $app-dark;
+    }
+
+    &-app-purple {
+      color: $app-purple;
+    }
+
+    &-white {
+      color: $white;
+    }
+  }
+}
+
+@include breakpoint-up(xl) {
+  .text-xl {
+
+    // BRAND PRIMARY
+    &-primary {
+      color: $brand-primary;
+    }
+
+    // BRAND SECONDARY
+    &-secondary {
+      color: $brand-secondary;
+
+      &-100 {
+        color: $brand-secondary-100;
+      }
+
+      &-200 {
+        color: $brand-secondary-200;
+      }
+    }
+
+    // BRAND INFO
+    &-info {
+      color: $brand-info;
+
+      &-100 {
+        color: $brand-info-100;
+      }
+    }
+
+    // TEXT COLORS
+    &-default {
+      color: $text-color;
+    }
+
+    &-white {
+      color: $text-white;
+    }
+
+    // BRAND TONIC
+    &-tonic {
+      color: $brand-tonic;
+
+      &-100 {
+        color: $brand-tonic-100;
+      }
+
+      &-200 {
+        color: $brand-tonic-200;
+      }
+    }
+
+    // OTHER COLORS
+    &-app-white {
+      color: $app-white;
+    }
+
+    &-app-brown {
+      color: $app-brown;
+    }
+
+    &-app-green {
+      color: $app-green;
+    }
+
+    &-app-dark {
+      color: $app-dark;
+    }
+
+    &-app-purple {
+      color: $app-purple;
+    }
+
+    &-white {
+      color: $white;
+    }
+  }
+}

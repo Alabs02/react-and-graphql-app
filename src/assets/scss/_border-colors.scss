@@ -1,0 +1,66 @@
+$size: 50;
+
+@for $n from 0 through $size {
+  .border-#{$n} {
+    border-width: toRem($n) !important;
+    border-style: solid;
+    border-color: $brand-secondary;
+  }
+}
+
+@include breakpoint-up(md) {
+  @for $n from 0 through $size {
+    .border-md-#{$n} {
+      border-width: toRem($n) !important;
+      border-style: solid;
+      border-color: $brand-secondary;
+    }
+  }
+}
+
+@include breakpoint-up(lg) {
+  @for $n from 0 through $size {
+    .border-lg-#{$n} {
+      border-width: toRem($n) !important;
+      border-style: solid;
+      border-color: $brand-secondary;
+    }
+  }
+}
+
+@include breakpoint-up(xl) {
+  @for $n from 0 through $size {
+    .border-xl-#{$n} {
+      border-width: toRem($n) !important;
+      border-style: solid;
+      border-color: $brand-secondary;
+    }
+  }
+}
+
+.border {
+  &-red {
+    border-color: red !important;
+  }
+
+  &-blue {
+    border-color: blue !important;
+  }
+
+  &-green {
+    border-color: $app-green  !important;
+  }
+
+
+  &-purple {
+    border-color: $app-purple !important;
+  }
+
+  &-tonic {
+    border-color: $brand-tonic  !important;
+  }
+
+  &-primary {
+    border-color: $brand-primary  !important;
+  }
+}
