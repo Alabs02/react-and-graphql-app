@@ -1,44 +1,43 @@
-# React Typescript Starter Kit
+# MOVEA APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
-### `npm install -S --legacy-peer-deps`
 
 To install all development dependencies
-### `npm start`
+### `npm install -S`
+
+Then run
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3057](http://localhost:3050) to view it in the browser.
+Open [http://localhost:3040](http://localhost:3040) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# ESSAY SOLUTION
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Name of product: Easyr App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Easyr is a fintech application that enables users to easily make transactions like, bank transfers, buy airtime, pay electric bills and exchange functionalities for forex and crypto currencies. I choose Easyr beacuse I often face problems when trying to perform forex or crypto exchanges and I have to use different applications and thus I will really want all these feature in one application.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Some of improvesments that make Easyr better are:
+  > Make the process of Identication verfication less tedious and also verify submitted credentials faster. Like some applications don't access NIN Slip only card so if the can access NIN slips and any other verified government issued ID cards that will make the user experience better.
+
+  > Easyr login credentials recovery is slow and difficult and thus if we can reduce the days and also instead of using only the phone number linked to the users NIN or Drivers License let's make the user to provide a recovery email when signin up to enable us use that as a second method of login credentials recovery.
+
+  > Finally, for the exhange flow is quite long and if we can you confirmation modals that will reduce the number clicks leading to a better user experience. 
+
+
 
 
